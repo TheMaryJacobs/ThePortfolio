@@ -1,2 +1,5 @@
 # portfolio2
-Responsive bootstrap portfolio
+## Overview
+Responsive portfolio using bootstap elements and responsive rows and columns for varying media sizes. 
+
+## 
