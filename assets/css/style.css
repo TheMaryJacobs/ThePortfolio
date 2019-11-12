@@ -8,3 +8,41 @@ body{
 .container{
     background-color: white;
 }
+
+.topbox{
+    position:absolute;
+	background-color:#86B1B5;
+	height: 150px;
+	width:170px;
+    text-align: center;
+    /* this places the box in the top corner */
+	left: 120px;
+	bottom: -5px;
+}
+
+.pagetitle{
+    font-family: 'Big Shoulders Text', cursive;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	line-height: 38px;
+    font-size: 36px;
+    color: white;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	line-height: 24px;
+	padding: 20px;
+	display:flex;
+}
+
+a{
+	font-family: 'Big Shoulders Text', cursive;
+	text-transform:uppercase;
+	font-size: 26px;
+	letter-spacing: 2px;
+	color: dimgray;
+	text-decoration: none;
+	padding-left: 20px;
+}
