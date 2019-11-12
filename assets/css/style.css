@@ -10,26 +10,6 @@ body{
     margin-bottom: 130px;
 }
 
-/* .topbox{
-    position:absolute;
-	background-color:#86B1B5;
-	height: 100px;
-	width:170px;
-    text-align: center;
-    /* this places the box in the top corner */
-	/* left: 120px;
-	bottom: -5px;
-} */
-
-/* .pagetitle{
-    font-family: 'Big Shoulders Text', cursive;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	line-height: 38px;
-    font-size: 36px;
-    color: white;
-} */ 
-
 p{
     font-family: 'Raleway', sans-serif;
 	letter-spacing: 2px;
@@ -39,7 +19,9 @@ p{
 }
 
 a{
-	font-family: 'Big Shoulders Text', cursive;
+    /* when you don't want glitchy ugly cursive to show 
+    up just make it a different font-type to default to */
+	font-family: 'Big Shoulders Text', sans-serif;
 	text-transform:uppercase;
 	font-size: 26px;
 	letter-spacing: 2px;
@@ -50,21 +32,22 @@ a{
 
 h1{
     color: #85B1B5;
-    font-family: 'Big Shoulders Text', cursive;
+    font-family: 'Big Shoulders Text', sans-serif;
 	text-transform:uppercase;
 	font-size: 42px;
 	letter-spacing: 2px
 }
 h2{
-    font-family: 'Big Shoulders Text', cursive;
+    font-family: 'Big Shoulders Text', sans-serif;
     font-size: 36px;
     color: #666666
 }
 
 h3{
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 2px;
-    color:#85B1B5;
+    font-family: 'Big Shoulders Text', sans-serif;
+    letter-spacing: 4px;
+    font-size: 28px;
+    color:#666666;
     padding: 5px;
     text-align: center;
 
@@ -100,10 +83,7 @@ h3{
     align-content: center;
     justify-content: center;
 }
-.btn{
-    align-content: center;
-    justify-content: center;
-}
+
 .head{
     background-color: white;
     height:90px;
