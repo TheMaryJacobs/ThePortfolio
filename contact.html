@@ -9,28 +9,32 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
+  <!-- _________________________________________________________________________ -->
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-3 mb-5 bg-white">
-        <a class="navbar-brand" href="#">Mary Jacobs</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse d-flex flex-row-reverse bd-highlight" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-            </li>
-          </ul>
+<header class="header shadow">
+  <div class="head row p-4 width:100%">
+    <div class="col-sm-12 col-lg-6 text-center align-center">
+      <h1>MARY JACOBS</h1>
+    </div>
+    <div class="col-sm-12 col-lg-6 text-center align-center">
+          <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
         </div>
-      </nav>
+  </div>
 
-      <div class="container shadow p-3 mb-5 bg-white mt-5 p-5">
+</header>
+
+      <div class="container shadow p-3 mt-5 mb-15 bg-white ">
+        <h3>Let's Build Something Beautiful</h3>
             <form>
                     <div class="form-group">
                       <label for="exampleInputEmail1">Email address</label>
@@ -38,20 +42,19 @@
                       <small id="emailHelp" class="form-text text-muted">I might sell your email address to the devil.</small>
                     </div>
                     <div class="form-group">
-                      <label for="exampleInputPassword1">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                      <label for="exampleInputFullName1">Full Name</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="First and Last">
                     </div>
-                    <div class="form-group form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>
+                  <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Tell me what you have in mind.</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+              <button type="submit" class="btn btn-primary">Submit</button>  
+            </form>
+            
       </div>
 
-
-
-    <nav class="navbar fixed-bottom navbar-light bg-light d-flex justify-content-center shadow bg-white">
+      <nav class="footer navbar fixed-bottom navbar-light d-flex justify-content-center shadow ">
         <a class="navbar-brand" href="https://github.com/TheMaryJacobs">GitHub</a>
         <a class="navbar-brand" href="https://www.linkedin.com/in/mary-jacobs-creative-arts/">LinkedIn</a>
         <a class="navbar-brand mx-3" target="blank" href="#">Design Portfolio</a>
