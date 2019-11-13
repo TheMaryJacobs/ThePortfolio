@@ -7,9 +7,28 @@ body{
 
 .container{
     background-color: white;
-    margin-bottom: 130px;
+    margin: 50px auto;
 }
 
+/* styles and positions top gray title box  */
+.graybox{
+    position: relative;
+    background-color:#666666;
+    height:90px;
+    padding: 15px 0px;
+}
+
+/* styles and positions top navigation */
+.headnav{
+    background-color: white;
+    height: 90px;
+    width: auto;
+    align-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* font stuff 32-86*/
 p{
     font-family: 'Raleway', sans-serif;
 	letter-spacing: 2px;
@@ -29,10 +48,13 @@ a{
 	text-decoration: none;
 	padding-left: 20px;
 }
-.navbar-brand{
-    color: white;
+
+/* Change link hover color - such aesthetic */
+a:hover{
+    color:#85B1B5;
 }
 
+/* styles headings */
 h1{
     color:white;
     font-family: 'Big Shoulders Text', sans-serif;
@@ -57,6 +79,13 @@ h3{
     text-align: center;
     align-content: center;
 }
+
+.form-group{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+/* sets the position of the portfolio project captions over their associated image  */
 .absolute{
 	position:absolute;
 	bottom: -15px;
@@ -67,21 +96,23 @@ h3{
     text-align: center;
 }
 
+/* sets size & postition and pairs image with caption */
 .relative{
 	position: relative;
-	/* flex-direction:row; */
 	width: 250px;
 	height: 250px;
 	justify-content: center;
 }
 
+/* styles footer  */
 .footer{
     background-color:#666666;
     height: 90px;
-    margin-top: 90px;
+    /* margin-top: px; */
     color: white;
 }
 
+/* Styles submit button on contact page  */
 .btn-primary{
     background-color: #85B1B5 ;
     border-color: #85B1B5;
@@ -89,44 +120,5 @@ h3{
     justify-content: center;
 }
 
-.graybox{
-    position: relative;
-    background-color:#666666;
-    height:90px;
-    padding: 15px 0px;
-}
-
-.headnav{
-    background-color: white;
-    height: 90px;
-    width: auto;
-    align-content: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-}
-.nav{
-    /* background-color: white;
-    height: 90px;
-    width: auto;
-    align-content: center;
-    padding-top: 10px;
-    padding-bottom: 15px;
-} */
-
-.form-group{
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-}
 
 
-.header{
-    background-color: white;
-}
-
-hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 0;
-    border-top: 1px solid #85B1B5;
-  }
