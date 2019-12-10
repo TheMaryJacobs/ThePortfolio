@@ -2,7 +2,7 @@
 Homework Assignment 02 - Responsive Bootstrap Portfolio
 
 Live site here:
-https://themaryjacobs.github.io/portfolio2/index.html
+https://themaryjacobs.github.io/ThePortfolio/
 
 ## Overview
 Responsive portfolio using bootstap elements and responsive rows and columns for varying media sizes. 
