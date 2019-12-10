@@ -2,15 +2,8 @@
 /* CSS Document */
 
 body{
-/*
-   background-color: #ccff8c;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23ccff8c' cx='50' cy='0' r='50'/%3E%3Cg fill='%23c1fc91' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b7fa97' cx='50' cy='100' r='50'/%3E%3Cg fill='%23adf79c' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a4f4a1' cx='50' cy='200' r='50'/%3E%3Cg fill='%239cf0a6' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%2394edab' cx='50' cy='300' r='50'/%3E%3Cg fill='%238de9af' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%2387e6b3' cx='50' cy='400' r='50'/%3E%3Cg fill='%2382e2b6' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%237edeb9' cx='50' cy='500' r='50'/%3E%3Cg fill='%237bdabb' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%237ad5bd' cx='50' cy='600' r='50'/%3E%3Cg fill='%2379d1be' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%2379cdbf' cx='50' cy='700' r='50'/%3E%3Cg fill='%237ac8bf' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%237bc4be' cx='50' cy='800' r='50'/%3E%3Cg fill='%237dbfbd' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%2380babb' cx='50' cy='900' r='50'/%3E%3Cg fill='%2382b6b8' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%2385b1b5' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
-background-attachment: fixed;
-background-size: contain;
-*/
-	
-	background-color: #85b1b5;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23a8cc60' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23d1a32e' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23c9a42e' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23dd7d2d' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23e1732d' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23df543e' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23e5374f' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23d32656' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23ca007c' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23b70070' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23811aaa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+background-color: #8cdade;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23ff621f' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23d3f511' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23e57900' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23fcba00' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23c68b00' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23ff7a1e' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23a39900' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23fb354e' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%237ea300' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23cf0071' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%2350aa20' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
 background-attachment: fixed;
 background-size: cover;
 }
@@ -68,7 +61,7 @@ a{
 
 /* Change link hover color - such aesthetic */
 a:hover{
-    color:#85B1B5;
+    color:#8CDADE;
 }
 
 a.port-link{
@@ -120,11 +113,12 @@ h3{
 .absolute{
 	position:absolute;
 	bottom: -15px;
-	left: 0px;
-    background-color: #85B1B5;
+	left: 20px;
+    background-color: black;
     width: 250px;
 	height: 50px;
     text-align: center;
+	justify-content: center;
 }
 
 /* sets size & postition and pairs image with caption */
@@ -151,7 +145,7 @@ a.footnav{
 	color: white;
 }
 a.footnav:hover{
-	color:#85B1b5;
+	color:#8CDADE;
 	text-decoration: none;
 }
 
@@ -166,8 +160,8 @@ a.footnav:hover{
 .btn-primary{
 	font-family: 'Raleway', sans-serif;
     font-size: 16px;
-    background-color: #85B1B5 ;
-    border-color: #85B1B5;
+    background-color: #8CDADE ;
+    border-color: #8CDADE;
     align-content: center;
     justify-content: center;
 }
@@ -203,7 +197,7 @@ a.contactli: hover{
 
 .foot-item{
 	justify-content: center;
-	color:salmon;
+	color:white;
 	display: inline-flex;
 	flex-wrap: wrap;
 }
