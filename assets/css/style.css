@@ -54,7 +54,7 @@ a{
 	text-transform:uppercase;
 	font-size: 26px;
 	letter-spacing: 2px;
-	color: dimgray;
+	color: black;
 	text-decoration: none;
 	padding-left: 20px;
 }
@@ -73,8 +73,7 @@ a.port-link{
 }
 
 a.port-link:hover{
-	color:#FF0A2E;
-		
+	color:#fb354e;
 	
 }
 
@@ -91,7 +90,7 @@ h1{
 h2{
     font-family: 'Big Shoulders Text', sans-serif;
     font-size: 36px;
-    color: #666666
+    color: #8CDADE
 }
 
 h3{
@@ -145,7 +144,7 @@ a.footnav{
 	color: white;
 }
 a.footnav:hover{
-	color:#8CDADE;
+	color:#d3f530;
 	text-decoration: none;
 }
 
@@ -166,8 +165,8 @@ a.footnav:hover{
     justify-content: center;
 }
 .btn-primary:hover{
-	background-color: #666666;
-	border-color: #666666;
+	background-color: black;
+	border-color: black;
 }
 
 .container2{
@@ -191,7 +190,7 @@ a.footnav:hover{
 }
 
 a.contactli: hover{
-	color: #85B1b5;
+	color: #d3f530;
 	text-decoration: none;
 }
 
